@@ -40,7 +40,7 @@ int main(){
                         
     }
 
-     void*impresso = mapQuery(dicionario, chave, cmp); 
+     char* impresso = (char*) mapQuery(dicionario, chave, cmp); 
     if(impresso != NULL){
         printf("item encontrado ! \n");
         printf("item: %s, chave: %s \n", impresso, chave);
