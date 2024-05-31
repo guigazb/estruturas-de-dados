@@ -31,11 +31,11 @@ int main(){
     printf("chave: ");
     scanf("%s", chave);
     if(mapInsert(dicionario,item,chave) == true){ 
-        printf("anime inserido com sucesso! \n");
+        printf("item inserido com sucesso! \n");
         printf("\n");
                         
     }else{
-        printf("Erro ao inserir anime... \n");
+        printf("Erro ao inserir item... \n");
         printf("\n");
                         
     }
